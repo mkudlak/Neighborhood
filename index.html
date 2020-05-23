@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Julian Website</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <section class="about grey-bg text-center">
+      <div class="container">
+        <div class="about__content">
+          <p class="section__bf">ABOUT</p>
+          <h2 class="section__h--mid italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor
+          </h2>
+          <p class="section__desc">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="maps-tabs">
+      <div class="maps-tabs__text-content">
+        <h2 class="section__h--big section__h--before">Neighborhood</h2>
+        <ul class="maps-tabs__text-content__nav tab">
+          <li class="tablist">
+            <a class="tablinks" onclick="openAttraction(event, 'Citi-Bike')"
+              >Citi Bike</a
+            >
+          </li>
+          <li class="tablist">
+            <a
+              class="tablinks"
+              onclick="openAttraction(event, 'Public-Transportations')"
+              >Public Transportation</a
+            >
+          </li>
+          <li class="tablist">
+            <a class="tablinks" onclick="openAttraction(event, 'Parks')"
+              >Parks</a
+            >
+          </li>
+          <li class="tablist">
+            <a class="tablinks" onclick="openAttraction(event, 'Coffeeshops')"
+              >Coffeeshops</a
+            >
+          </li>
+          <li class="tablist">
+            <a class="tablinks" onclick="openAttraction(event, 'Supermarkets')"
+              >Supermarkets</a
+            >
+          </li>
+          <li class="tablist">
+            <a
+              class="tablinks"
+              onclick="openAttraction(event, 'Bars/Restaurants')"
+              >Bars/Restaurants</a
+            >
+          </li>
+        </ul>
+
+        <div id="Citi-Bike" class="tabcontent">
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">City Bike</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">City Bike</p>
+            <p class="tabcontent__item__adress">Congress St & Clinton St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">City Bike</p>
+            <p class="tabcontent__item__adress">Warren St & Court St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">City Bike</p>
+            <p class="tabcontent__item__adress">Dean St & Hoyt St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">City Bike</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">City Bike</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+        </div>
+
+        <div id="Public-Transportations" class="tabcontent">
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Public Transportations</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Public Transportations</p>
+            <p class="tabcontent__item__adress">Congress St & Clinton St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Public Transportations</p>
+            <p class="tabcontent__item__adress">Warren St & Court St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Public Transportations</p>
+            <p class="tabcontent__item__adress">Dean St & Hoyt St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Public Transportations</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Public Transportations</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+        </div>
+
+        <div id="Parks" class="tabcontent">
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Parks</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Parks</p>
+            <p class="tabcontent__item__adress">Congress St & Clinton St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Parks</p>
+            <p class="tabcontent__item__adress">Warren St & Court St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Parks</p>
+            <p class="tabcontent__item__adress">Dean St & Hoyt St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Parks</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Parks</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+        </div>
+
+        <div id="Coffeeshops" class="tabcontent">
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Coffeeshops</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Coffeeshops</p>
+            <p class="tabcontent__item__adress">Congress St & Clinton St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Coffeeshops</p>
+            <p class="tabcontent__item__adress">Warren St & Court St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Coffeeshops</p>
+            <p class="tabcontent__item__adress">Dean St & Hoyt St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Coffeeshops</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Coffeeshops</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+        </div>
+
+        <div id="Supermarkets" class="tabcontent">
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Supermarkets</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Supermarkets</p>
+            <p class="tabcontent__item__adress">Congress St & Clinton St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Supermarkets</p>
+            <p class="tabcontent__item__adress">Warren St & Court St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Supermarkets</p>
+            <p class="tabcontent__item__adress">Dean St & Hoyt St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Supermarkets</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Supermarkets</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+        </div>
+
+        <div id="Bars/Restaurants" class="tabcontent">
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Bars/Restaurants</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Bars/Restaurants</p>
+            <p class="tabcontent__item__adress">Congress St & Clinton St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Bars/Restaurants</p>
+            <p class="tabcontent__item__adress">Warren St & Court St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Bars/Restaurants</p>
+            <p class="tabcontent__item__adress">Dean St & Hoyt St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Bars/Restaurants</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+
+          <div class="tabcontent__item">
+            <p class="tabcontent__item__h">Bars/Restaurants</p>
+            <p class="tabcontent__item__adress">Bergen St & Smith St</p>
+            <a href="">Get Direction</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="maps-tabs__map" id="map"></div>
+    </section>
+
+    <section class="numbers dark-bg">
+      <div class="numbers__image"></div>
+      <div class="numbers__text-content">
+        <h2 class="section__h--big section__h--before white">The Building</h2>
+
+        <div class="numbers__text-content__item">
+          <p class="numbers__text-content__item__h">BUILT IN</p>
+          <p class="numbers__text-content__item__desc">1920</p>
+        </div>
+
+        <div class="numbers__text-content__item">
+          <p class="numbers__text-content__item__h">REBORN</p>
+          <p class="numbers__text-content__item__desc">2020</p>
+        </div>
+
+        <div class="numbers__text-content__item">
+          <p class="numbers__text-content__item__h">Original</p>
+          <p class="numbers__text-content__item__desc">ARCHITECTURE</p>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHRBkDK6jsHk-EtQ9NrfcJsqsO0dmmf6o&callback=initMap"
+      async
+      defer
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="map.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
